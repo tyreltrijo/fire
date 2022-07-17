@@ -1,0 +1,1314 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Notification";
+    Text = "Made by Its_Sword";
+            })
+
+wait(3)
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local titleframe = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local pageholder = Instance.new("Frame")
+local Fepage1 = Instance.new("TextButton")
+local Fepage2 = Instance.new("TextButton")
+local Fepage3 = Instance.new("TextButton")
+local Hatspage2 = Instance.new("TextButton")
+local Hatspage1 = Instance.new("TextButton")
+local Paidfe = Instance.new("TextButton")
+local Hatspage = Instance.new("TextButton")
+local fe1 = Instance.new("Frame")
+local Creeper = Instance.new("TextButton")
+local Smug = Instance.new("TextButton")
+local Winged = Instance.new("TextButton")
+local Humancar = Instance.new("TextButton")
+local Floppa = Instance.new("TextButton")
+local Parkour = Instance.new("TextButton")
+local Among = Instance.new("TextButton")
+local Son = Instance.new("TextButton")
+local fe2 = Instance.new("Frame")
+local Cursed = Instance.new("TextButton")
+local Creepy = Instance.new("TextButton")
+local Spider = Instance.new("TextButton")
+local Gale = Instance.new("TextButton")
+local Tall = Instance.new("TextButton")
+local Death = Instance.new("TextButton")
+local Walls = Instance.new("TextButton")
+local Ink = Instance.new("TextButton")
+local fe3 = Instance.new("Frame")
+local Snake = Instance.new("TextButton")
+local Pyramid = Instance.new("TextButton")
+local Dafeet = Instance.new("TextButton")
+local Ender = Instance.new("TextButton")
+local Xester = Instance.new("TextButton")
+local Cursed64 = Instance.new("TextButton")
+local Strong = Instance.new("TextButton")
+local Retard = Instance.new("TextButton")
+local fehats1 = Instance.new("Frame")
+local Shy = Instance.new("TextButton")
+local Pyramid_2 = Instance.new("TextButton")
+local Dafeet_2 = Instance.new("TextButton")
+local Ender_2 = Instance.new("TextButton")
+local Xester_2 = Instance.new("TextButton")
+local Cursed64_2 = Instance.new("TextButton")
+local Stand = Instance.new("TextButton")
+local Smile = Instance.new("TextButton")
+local fehats2 = Instance.new("Frame")
+local Waiter = Instance.new("TextButton")
+local Strongstand = Instance.new("TextButton")
+local Nullion = Instance.new("TextButton")
+local Cs3 = Instance.new("TextButton")
+local Cs4 = Instance.new("TextButton")
+local Cs5 = Instance.new("TextButton")
+local Cs6 = Instance.new("TextButton")
+local Cs7 = Instance.new("TextButton")
+local fepaid1 = Instance.new("Frame")
+local Wingedgunner = Instance.new("TextButton")
+local Neptunianv = Instance.new("TextButton")
+local Dbshot = Instance.new("TextButton")
+local Swordglitch = Instance.new("TextButton")
+local Immortallord = Instance.new("TextButton")
+local Killer = Instance.new("TextButton")
+local Shadowblade = Instance.new("TextButton")
+local Cs1 = Instance.new("TextButton")
+local needed = Instance.new("ScrollingFrame")
+local _096hat = Instance.new("TextButton")
+local Bikehat = Instance.new("TextButton")
+local Flinggunhat = Instance.new("TextButton")
+local Standhat = Instance.new("TextButton")
+local Smilehat = Instance.new("TextButton")
+local Waiterhat = Instance.new("TextButton")
+local Pickaxehat = Instance.new("TextButton")
+local Saitamahat = Instance.new("TextButton")
+local Stronghats = Instance.new("TextButton")
+local Nullionhat = Instance.new("TextButton")
+local Dbshothat = Instance.new("TextButton")
+local Swordglitchhat = Instance.new("TextButton")
+local Immortalhat = Instance.new("TextButton")
+local Killerhat = Instance.new("TextButton")
+local Shadowbladehat = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+main.Position = UDim2.new(0.34424907, 0, 0.0996386185, 0)
+main.Size = UDim2.new(0, 382, 0, 412)
+main.Active = true
+main.Draggable = true
+
+titleframe.Name = "titleframe"
+titleframe.Parent = main
+titleframe.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+titleframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+titleframe.Size = UDim2.new(0, 382, 0, 36)
+
+title.Name = "title"
+title.Parent = titleframe
+title.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 0
+title.Size = UDim2.new(0, 143, 0, 36)
+title.Font = Enum.Font.SourceSans
+title.Text = "Fire X Hub V2"
+title.TextColor3 = Color3.fromRGB(255, 148, 25)
+title.TextSize = 26.000
+title.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = titleframe
+Close.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.901731908, 0, 0, 0)
+Close.Size = UDim2.new(0, 36, 0, 36)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 148, 25)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+Close.MouseButton1Click:connect(function()
+    main.Visible = false
+end)
+
+pageholder.Name = "pageholder"
+pageholder.Parent = main
+pageholder.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+pageholder.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pageholder.Position = UDim2.new(0, 0, 0.0851083398, 0)
+pageholder.Size = UDim2.new(0, 100, 0, 376)
+
+Fepage1.Name = "Fepage1"
+Fepage1.Parent = pageholder
+Fepage1.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Fepage1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fepage1.BorderSizePixel = 0
+Fepage1.Position = UDim2.new(-0.0053845942, 0, 0.0372255817, 0)
+Fepage1.Size = UDim2.new(0, 100, 0, 32)
+Fepage1.Font = Enum.Font.SourceSans
+Fepage1.Text = "No Hats Fe Scripts 1"
+Fepage1.TextColor3 = Color3.fromRGB(255, 148, 25)
+Fepage1.TextScaled = true
+Fepage1.TextSize = 14.000
+Fepage1.TextWrapped = true
+Fepage1.MouseButton1Click:connect(function()
+    fe1.Visible = true
+    fe2.Visible = false
+    fe3.Visible = false
+    fehats1.Visible = false
+    fehats2.Visible = false
+    fepaid1.Visible = false
+    needed.Visible = false
+end)
+
+Fepage2.Name = "Fepage2"
+Fepage2.Parent = pageholder
+Fepage2.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Fepage2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fepage2.BorderSizePixel = 0
+Fepage2.Position = UDim2.new(-0.0053846743, 0, 0.281906426, 0)
+Fepage2.Size = UDim2.new(0, 100, 0, 32)
+Fepage2.Font = Enum.Font.SourceSans
+Fepage2.Text = "No Hats Fe Scripts 3"
+Fepage2.TextColor3 = Color3.fromRGB(255, 148, 25)
+Fepage2.TextScaled = true
+Fepage2.TextSize = 14.000
+Fepage2.TextWrapped = true
+Fepage2.MouseButton1Click:connect(function()
+    fe2.Visible = true
+    fe1.Visible = false
+    fe3.Visible = false
+    fehats1.Visible = false
+    fehats2.Visible = false
+    fepaid1.Visible = false
+    needed.Visible = false
+end)
+
+Fepage3.Name = "Fepage3"
+Fepage3.Parent = pageholder
+Fepage3.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Fepage3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fepage3.BorderSizePixel = 0
+Fepage3.Position = UDim2.new(-0.0053845644, 0, 0.164885134, 0)
+Fepage3.Size = UDim2.new(0, 100, 0, 32)
+Fepage3.Font = Enum.Font.SourceSans
+Fepage3.Text = "No Hats Fe Scripts 2"
+Fepage3.TextColor3 = Color3.fromRGB(255, 148, 25)
+Fepage3.TextScaled = true
+Fepage3.TextSize = 14.000
+Fepage3.TextWrapped = true
+Fepage3.MouseButton1Click:connect(function()
+    fe3.Visible = true
+    fe2.Visible = false
+    fe1.Visible = false
+    fehats1.Visible = false
+    fehats2.Visible = false
+    fepaid1.Visible = false
+    needed.Visible = false
+end)
+
+Hatspage2.Name = "Hatspage2"
+Hatspage2.Parent = pageholder
+Hatspage2.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Hatspage2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hatspage2.BorderSizePixel = 0
+Hatspage2.Position = UDim2.new(-0.00538436882, 0, 0.497331917, 0)
+Hatspage2.Size = UDim2.new(0, 100, 0, 32)
+Hatspage2.Font = Enum.Font.SourceSans
+Hatspage2.Text = "Hats Fe Scripts 2"
+Hatspage2.TextColor3 = Color3.fromRGB(255, 148, 25)
+Hatspage2.TextScaled = true
+Hatspage2.TextSize = 14.000
+Hatspage2.TextWrapped = true
+Hatspage2.MouseButton1Click:connect(function()
+    fehats2.Visible = true
+    fe2.Visible = false
+    fe3.Visible = false
+    fehats1.Visible = false
+    fe1.Visible = false
+    fepaid1.Visible = false
+    needed.Visible = false
+end)
+
+Hatspage1.Name = "Hatspage1"
+Hatspage1.Parent = pageholder
+Hatspage1.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Hatspage1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hatspage1.BorderSizePixel = 0
+Hatspage1.Position = UDim2.new(-0.00500022434, 0, 0.398097575, 0)
+Hatspage1.Size = UDim2.new(0, 100, 0, 31)
+Hatspage1.Font = Enum.Font.SourceSans
+Hatspage1.Text = "Hats Fe Scripts 1"
+Hatspage1.TextColor3 = Color3.fromRGB(255, 148, 25)
+Hatspage1.TextScaled = true
+Hatspage1.TextSize = 14.000
+Hatspage1.TextWrapped = true
+Hatspage1.MouseButton1Click:connect(function()
+    fehats1.Visible = true
+    fe2.Visible = false
+    fe3.Visible = false
+    fehats2.Visible = false
+    fe1.Visible = false
+    fepaid1.Visible = false
+    needed.Visible = false
+end)
+
+Paidfe.Name = "Paidfe"
+Paidfe.Parent = pageholder
+Paidfe.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Paidfe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Paidfe.BorderSizePixel = 0
+Paidfe.Position = UDim2.new(-0.00538436882, 0, 0.611693621, 0)
+Paidfe.Size = UDim2.new(0, 100, 0, 32)
+Paidfe.Font = Enum.Font.SourceSans
+Paidfe.Text = "Paid Fe Scripts 1"
+Paidfe.TextColor3 = Color3.fromRGB(255, 148, 25)
+Paidfe.TextScaled = true
+Paidfe.TextSize = 14.000
+Paidfe.TextWrapped = true
+Paidfe.MouseButton1Click:connect(function()
+    fepaid1.Visible = true
+    fe2.Visible = false
+    fe3.Visible = false
+    fehats1.Visible = false
+    fe1.Visible = false
+    fehats2.Visible = false
+    needed.Visible = false
+end)
+
+Hatspage.Name = "Hatspage"
+Hatspage.Parent = pageholder
+Hatspage.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Hatspage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hatspage.BorderSizePixel = 0
+Hatspage.Position = UDim2.new(-0.00538436882, 0, 0.715417027, 0)
+Hatspage.Size = UDim2.new(0, 100, 0, 32)
+Hatspage.Font = Enum.Font.SourceSans
+Hatspage.Text = "Hats Needed"
+Hatspage.TextColor3 = Color3.fromRGB(255, 148, 25)
+Hatspage.TextScaled = true
+Hatspage.TextSize = 14.000
+Hatspage.TextWrapped = true
+Hatspage.MouseButton1Click:connect(function()
+    needed.Visible = true
+    fe2.Visible = false
+    fe3.Visible = false
+    fehats1.Visible = false
+    fe1.Visible = false
+    fehats2.Visible = false
+    fepaid1.Visible = false
+end)
+
+fe1.Name = "fe1"
+fe1.Parent = main
+fe1.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+fe1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fe1.Position = UDim2.new(0.282722473, 0, 0.10078001, 0)
+fe1.Size = UDim2.new(0, 256, 0, 362)
+
+Creeper.Name = "Creeper"
+Creeper.Parent = fe1
+Creeper.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Creeper.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Creeper.Position = UDim2.new(0.109375, 0, 0.0846048146, 0)
+Creeper.Size = UDim2.new(0, 200, 0, 32)
+Creeper.Font = Enum.Font.SourceSans
+Creeper.Text = "Netless Bypass"
+Creeper.TextColor3 = Color3.fromRGB(255, 148, 25)
+Creeper.TextSize = 20.000
+Creeper.TextWrapped = true
+Creeper.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/7Jtggrqx'))()
+end)
+
+Smug.Name = "Smug"
+Smug.Parent = fe1
+Smug.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Smug.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Smug.Position = UDim2.new(0.109375, 0, 0.188403517, 0)
+Smug.Size = UDim2.new(0, 200, 0, 32)
+Smug.Font = Enum.Font.SourceSans
+Smug.Text = "Fe Smug"
+Smug.TextColor3 = Color3.fromRGB(255, 148, 25)
+Smug.TextSize = 20.000
+Smug.TextWrapped = true
+Smug.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/ZuKy7HFF'))()
+end)
+
+Winged.Name = "Winged"
+Winged.Parent = fe1
+Winged.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Winged.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Winged.Position = UDim2.new(0.109375, 0, 0.289439797, 0)
+Winged.Size = UDim2.new(0, 200, 0, 32)
+Winged.Font = Enum.Font.SourceSans
+Winged.Text = "Fe Winged Master"
+Winged.TextColor3 = Color3.fromRGB(255, 148, 25)
+Winged.TextSize = 18.000
+Winged.TextWrapped = true
+Winged.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/G68Krc4Q'))()
+end)
+
+Humancar.Name = "Humancar"
+Humancar.Parent = fe1
+Humancar.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Humancar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Humancar.Position = UDim2.new(0.109375, 0, 0.39565739, 0)
+Humancar.Size = UDim2.new(0, 200, 0, 32)
+Humancar.Font = Enum.Font.SourceSans
+Humancar.Text = "Fe Human Car"
+Humancar.TextColor3 = Color3.fromRGB(255, 148, 25)
+Humancar.TextSize = 18.000
+Humancar.TextWrapped = true
+Humancar.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/YbEir502'))()
+end)
+
+Floppa.Name = "Floppa"
+Floppa.Parent = fe1
+Floppa.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Floppa.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Floppa.Position = UDim2.new(0.109375, 0, 0.499284327, 0)
+Floppa.Size = UDim2.new(0, 200, 0, 32)
+Floppa.Font = Enum.Font.SourceSans
+Floppa.Text = "Fe Floppa"
+Floppa.TextColor3 = Color3.fromRGB(255, 148, 25)
+Floppa.TextSize = 18.000
+Floppa.TextWrapped = true
+Floppa.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/Floppa/main/Floppa'))()
+end)
+
+Parkour.Name = "Parkour"
+Parkour.Parent = fe1
+Parkour.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Parkour.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Parkour.Position = UDim2.new(0.109375, 0, 0.600320578, 0)
+Parkour.Size = UDim2.new(0, 200, 0, 32)
+Parkour.Font = Enum.Font.SourceSans
+Parkour.Text = "Fe Parkour V2"
+Parkour.TextColor3 = Color3.fromRGB(255, 148, 25)
+Parkour.TextSize = 18.000
+Parkour.TextWrapped = true
+Parkour.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/Parkour/main/Fe%20Parkour'))()
+end)
+
+Among.Name = "Among"
+Among.Parent = fe1
+Among.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Among.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Among.Position = UDim2.new(0.109375, 0, 0.7065382, 0)
+Among.Size = UDim2.new(0, 200, 0, 32)
+Among.Font = Enum.Font.SourceSans
+Among.Text = "Fe Among Us"
+Among.TextColor3 = Color3.fromRGB(255, 148, 25)
+Among.TextSize = 18.000
+Among.TextWrapped = true
+Among.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/Amogus/main/Among%20Us'))()
+end)
+
+Son.Name = "Son"
+Son.Parent = fe1
+Son.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Son.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Son.Position = UDim2.new(0.109375, 0, 0.814273, 0)
+Son.Size = UDim2.new(0, 200, 0, 32)
+Son.Font = Enum.Font.SourceSans
+Son.Text = "Fe Sonic"
+Son.TextColor3 = Color3.fromRGB(255, 148, 25)
+Son.TextSize = 18.000
+Son.TextWrapped = true
+Son.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/sonic/main/SOnic'))()
+end)
+
+fe2.Name = "fe2"
+fe2.Parent = main
+fe2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+fe2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fe2.Position = UDim2.new(0.282722533, 0, 0.10078001, 0)
+fe2.Size = UDim2.new(0, 256, 0, 362)
+fe2.Visible = false
+
+Cursed.Name = "Cursed"
+Cursed.Parent = fe2
+Cursed.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Cursed.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cursed.Position = UDim2.new(0.109375, 0, 0.0873672441, 0)
+Cursed.Size = UDim2.new(0, 200, 0, 32)
+Cursed.Font = Enum.Font.SourceSans
+Cursed.Text = "Fe Cursed Spider"
+Cursed.TextColor3 = Color3.fromRGB(255, 148, 25)
+Cursed.TextSize = 20.000
+Cursed.TextWrapped = true
+Cursed.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/Cursed/main/Spider'))()
+end)
+
+Creepy.Name = "Creepy"
+Creepy.Parent = fe2
+Creepy.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Creepy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Creepy.Position = UDim2.new(0.109375, 0, 0.188403517, 0)
+Creepy.Size = UDim2.new(0, 200, 0, 32)
+Creepy.Font = Enum.Font.SourceSans
+Creepy.Text = "Fe Creepy Crawler"
+Creepy.TextColor3 = Color3.fromRGB(255, 148, 25)
+Creepy.TextSize = 20.000
+Creepy.TextWrapped = true
+Creepy.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/eMmgNCQV'))()
+end)
+
+Spider.Name = "Spider"
+Spider.Parent = fe2
+Spider.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Spider.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Spider.Position = UDim2.new(0.109375, 0, 0.289439797, 0)
+Spider.Size = UDim2.new(0, 200, 0, 32)
+Spider.Font = Enum.Font.SourceSans
+Spider.Text = "Fe Spider"
+Spider.TextColor3 = Color3.fromRGB(255, 148, 25)
+Spider.TextSize = 18.000
+Spider.TextWrapped = true
+Spider.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/txsk1LJg'))()
+end)
+
+Gale.Name = "Gale"
+Gale.Parent = fe2
+Gale.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Gale.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Gale.Position = UDim2.new(0.109375, 0, 0.39565739, 0)
+Gale.Size = UDim2.new(0, 200, 0, 32)
+Gale.Font = Enum.Font.SourceSans
+Gale.Text = "Fe Gale Fighter"
+Gale.TextColor3 = Color3.fromRGB(255, 148, 25)
+Gale.TextSize = 18.000
+Gale.TextWrapped = true
+Gale.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/haBVC7bj'))()
+end)
+
+Tall.Name = "Tall"
+Tall.Parent = fe2
+Tall.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Tall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tall.Position = UDim2.new(0.109375, 0, 0.499284327, 0)
+Tall.Size = UDim2.new(0, 200, 0, 32)
+Tall.Font = Enum.Font.SourceSans
+Tall.Text = "Fe Tall R15"
+Tall.TextColor3 = Color3.fromRGB(255, 148, 25)
+Tall.TextSize = 18.000
+Tall.TextWrapped = true
+Tall.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/MXstG0Qd'))()
+end)
+
+Death.Name = "Death"
+Death.Parent = fe2
+Death.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Death.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Death.Position = UDim2.new(0.109375, 0, 0.600320578, 0)
+Death.Size = UDim2.new(0, 200, 0, 32)
+Death.Font = Enum.Font.SourceSans
+Death.Text = "Fe Death Note"
+Death.TextColor3 = Color3.fromRGB(255, 148, 25)
+Death.TextSize = 18.000
+Death.TextWrapped = true
+Death.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/Y51KHiXb'))()
+end)
+
+Walls.Name = "Walls"
+Walls.Parent = fe2
+Walls.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Walls.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Walls.Position = UDim2.new(0.109375, 0, 0.7065382, 0)
+Walls.Size = UDim2.new(0, 200, 0, 32)
+Walls.Font = Enum.Font.SourceSans
+Walls.Text = "Fe Walk On Walls"
+Walls.TextColor3 = Color3.fromRGB(255, 148, 25)
+Walls.TextSize = 18.000
+Walls.TextWrapped = true
+Walls.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+end)
+
+Ink.Name = "Ink"
+Ink.Parent = fe2
+Ink.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Ink.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Ink.Position = UDim2.new(0.109375, 0, 0.814273, 0)
+Ink.Size = UDim2.new(0, 200, 0, 32)
+Ink.Font = Enum.Font.SourceSans
+Ink.Text = "Fe Ink Monster"
+Ink.TextColor3 = Color3.fromRGB(255, 148, 25)
+Ink.TextSize = 18.000
+Ink.TextWrapped = true
+Ink.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/qLACUGL1"))()
+end)
+
+fe3.Name = "fe3"
+fe3.Parent = main
+fe3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+fe3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fe3.Position = UDim2.new(0.282722592, 0, 0.10078001, 0)
+fe3.Size = UDim2.new(0, 256, 0, 362)
+fe3.Visible = false
+
+Snake.Name = "Snake"
+Snake.Parent = fe3
+Snake.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Snake.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Snake.Position = UDim2.new(0.109375, 0, 0.0873672441, 0)
+Snake.Size = UDim2.new(0, 200, 0, 32)
+Snake.Font = Enum.Font.SourceSans
+Snake.Text = "Fe Snake"
+Snake.TextColor3 = Color3.fromRGB(255, 148, 25)
+Snake.TextSize = 20.000
+Snake.TextWrapped = true
+Snake.MouseButton1Click:connect(function()
+    loadstring("\45\45\77\65\68\69\32\66\89\32\68\69\76\69\67\84\73\86\47\71\85\65\86\65\74\85\73\67\69\70\65\78\67\76\85\66\70\65\78\10\45\45\83\85\66\83\67\82\73\66\69\32\84\79\32\68\65\82\75\32\69\67\67\69\78\84\82\73\67\10\102\117\110\99\116\105\111\110\32\114\109\101\115\104\40\97\41\10\105\102\32\110\111\116\32\40\119\111\114\107\115\112\97\99\101\91\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\78\97\109\101\93\91\97\93\46\72\97\110\100\108\101\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\39\77\101\115\104\39\41\32\111\114\32\119\111\114\107\115\112\97\99\101\91\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\78\97\109\101\93\91\97\93\46\72\97\110\100\108\101\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\39\83\112\101\99\105\97\108\77\101\115\104\39\41\41\32\116\104\101\110\32\114\101\116\117\114\110\32\101\110\100\10\111\108\100\61\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\61\119\111\114\107\115\112\97\99\101\91\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\78\97\109\101\93\10\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\119\111\114\107\115\112\97\99\101\91\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\78\97\109\101\93\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\97\41\46\72\97\110\100\108\101\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\10\105\102\32\118\58\73\115\65\40\39\77\101\115\104\39\41\32\111\114\32\118\58\73\115\65\40\39\83\112\101\99\105\97\108\77\101\115\104\39\41\32\116\104\101\110\10\118\58\82\101\109\111\118\101\40\41\10\101\110\100\10\101\110\100\10\102\111\114\32\105\32\61\32\49\32\44\32\50\32\100\111\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\61\111\108\100\10\101\110\100\10\101\110\100\10\10\72\117\109\97\110\68\105\101\100\32\61\32\102\97\108\115\101\32\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\32\105\102\32\118\58\73\115\65\40\34\66\97\115\101\80\97\114\116\34\41\32\116\104\101\110\32\32\95\71\46\110\101\116\108\101\115\115\61\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\82\117\110\83\101\114\118\105\99\101\34\41\46\72\101\97\114\116\98\101\97\116\58\99\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\32\118\46\65\115\115\101\109\98\108\121\76\105\110\101\97\114\86\101\108\111\99\105\116\121\32\61\32\86\101\99\116\111\114\51\46\110\101\119\40\45\51\48\44\48\44\48\41\32\115\101\116\104\105\100\100\101\110\112\114\111\112\101\114\116\121\40\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\44\34\77\97\120\105\109\117\109\83\105\109\117\108\97\116\105\111\110\82\97\100\105\117\115\34\44\109\97\116\104\46\104\117\103\101\41\32\115\101\116\104\105\100\100\101\110\112\114\111\112\101\114\116\121\40\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\44\34\83\105\109\117\108\97\116\105\111\110\82\97\100\105\117\115\34\44\57\57\57\57\57\57\57\57\57\41\32\101\110\100\41\32\101\110\100\32\101\110\100\32\32\108\111\99\97\108\32\112\108\114\32\61\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\32\108\111\99\97\108\32\99\104\97\114\32\61\32\112\108\114\46\67\104\97\114\97\99\116\101\114\32\108\111\99\97\108\32\115\114\118\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\39\82\117\110\83\101\114\118\105\99\101\39\41\32\108\111\99\97\108\32\99\116\32\61\32\123\125\32\32\99\104\97\114\46\65\114\99\104\105\118\97\98\108\101\32\61\32\116\114\117\101\32\108\111\99\97\108\32\114\101\97\110\105\109\32\61\32\99\104\97\114\58\67\108\111\110\101\40\41\32\114\101\97\110\105\109\46\78\97\109\101\32\61\32\39\78\101\120\111\32\39\46\46\112\108\114\46\78\97\109\101\46\46\39\39\32\102\108\61\73\110\115\116\97\110\99\101\46\110\101\119\40\39\70\111\108\100\101\114\39\44\99\104\97\114\41\32\102\108\46\78\97\109\101\32\61\39\78\101\120\111\39\32\114\101\97\110\105\109\46\65\110\105\109\97\116\101\46\68\105\115\97\98\108\101\100\61\116\114\117\101\32\99\104\97\114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\58\68\101\115\116\114\111\121\40\41\32\99\104\97\114\46\72\117\109\97\110\111\105\100\58\67\104\97\110\103\101\83\116\97\116\101\40\49\54\41\32\32\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\99\104\97\114\46\72\117\109\97\110\111\105\100\58\71\101\116\80\108\97\121\105\110\103\65\110\105\109\97\116\105\111\110\84\114\97\99\107\115\40\41\32\100\111\32\118\58\83\116\111\112\40\41\32\101\110\100\32\99\104\97\114\46\65\110\105\109\97\116\101\58\82\101\109\111\118\101\40\41\32\32\102\117\110\99\116\105\111\110\32\99\114\101\97\116\101\40\112\97\114\116\44\32\112\97\114\101\110\116\44\32\112\44\32\114\41\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\65\116\116\97\99\104\109\101\110\116\34\44\112\97\114\116\41\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\65\108\105\103\110\80\111\115\105\116\105\111\110\34\44\112\97\114\116\41\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\65\108\105\103\110\79\114\105\101\110\116\97\116\105\111\110\34\44\112\97\114\116\41\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\65\116\116\97\99\104\109\101\110\116\34\44\112\97\114\101\110\116\41\32\112\97\114\116\46\65\116\116\97\99\104\109\101\110\116\46\78\97\109\101\32\61\32\112\97\114\116\46\78\97\109\101\32\112\97\114\101\110\116\46\65\116\116\97\99\104\109\101\110\116\46\78\97\109\101\32\61\32\112\97\114\116\46\78\97\109\101\32\112\97\114\116\46\65\108\105\103\110\80\111\115\105\116\105\111\110\46\65\116\116\97\99\104\109\101\110\116\48\32\61\32\112\97\114\116\91\112\97\114\116\46\78\97\109\101\93\32\112\97\114\116\46\65\108\105\103\110\79\114\105\101\110\116\97\116\105\111\110\46\65\116\116\97\99\104\109\101\110\116\48\32\61\32\112\97\114\116\91\112\97\114\116\46\78\97\109\101\93\32\112\97\114\116\46\65\108\105\103\110\80\111\115\105\116\105\111\110\46\65\116\116\97\99\104\109\101\110\116\49\32\61\32\112\97\114\101\110\116\91\112\97\114\116\46\78\97\109\101\93\32\112\97\114\116\46\65\108\105\103\110\79\114\105\101\110\116\97\116\105\111\110\46\65\116\116\97\99\104\109\101\110\116\49\32\61\32\112\97\114\101\110\116\91\112\97\114\116\46\78\97\109\101\93\32\112\97\114\101\110\116\91\112\97\114\116\46\78\97\109\101\93\46\80\111\115\105\116\105\111\110\32\61\32\112\32\111\114\32\86\101\99\116\111\114\51\46\110\101\119\40\41\32\112\97\114\116\91\112\97\114\116\46\78\97\109\101\93\46\79\114\105\101\110\116\97\116\105\111\110\32\61\32\114\32\111\114\32\86\101\99\116\111\114\51\46\110\101\119\40\41\32\112\97\114\116\46\65\108\105\103\110\80\111\115\105\116\105\111\110\46\77\97\120\70\111\114\99\101\32\61\32\57\57\57\57\57\57\57\57\57\32\112\97\114\116\46\65\108\105\103\110\80\111\115\105\116\105\111\110\46\77\97\120\86\101\108\111\99\105\116\121\32\61\32\109\97\116\104\46\104\117\103\101\32\112\97\114\116\46\65\108\105\103\110\80\111\115\105\116\105\111\110\46\82\101\97\99\116\105\111\110\70\111\114\99\101\69\110\97\98\108\101\100\32\61\32\102\97\108\115\101\32\112\97\114\116\46\65\108\105\103\110\80\111\115\105\116\105\111\110\46\82\101\115\112\111\110\115\105\118\101\110\101\115\115\32\61\32\109\97\116\104\46\104\117\103\101\32\112\97\114\116\46\65\108\105\103\110\79\114\105\101\110\116\97\116\105\111\110\46\82\101\115\112\111\110\115\105\118\101\110\101\115\115\32\61\32\109\97\116\104\46\104\117\103\101\32\112\97\114\116\46\65\108\105\103\110\80\111\115\105\116\105\111\110\46\82\105\103\105\100\105\116\121\69\110\97\98\108\101\100\32\61\32\102\97\108\115\101\32\112\97\114\116\46\65\108\105\103\110\79\114\105\101\110\116\97\116\105\111\110\46\77\97\120\84\111\114\113\117\101\32\61\32\57\57\57\57\57\57\57\57\57\32\101\110\100\32\32\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\99\104\97\114\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\32\105\102\32\118\58\73\115\65\40\39\65\99\99\101\115\115\111\114\121\39\41\32\116\104\101\110\32\118\46\72\97\110\100\108\101\58\66\114\101\97\107\74\111\105\110\116\115\40\41\32\99\114\101\97\116\101\40\118\46\72\97\110\100\108\101\44\114\101\97\110\105\109\91\118\46\78\97\109\101\93\46\72\97\110\100\108\101\41\32\101\110\100\32\101\110\100\32\32\99\104\97\114\46\84\111\114\115\111\91\39\76\101\102\116\32\83\104\111\117\108\100\101\114\39\93\58\68\101\115\116\114\111\121\40\41\32\99\104\97\114\46\84\111\114\115\111\91\39\82\105\103\104\116\32\83\104\111\117\108\100\101\114\39\93\58\68\101\115\116\114\111\121\40\41\32\99\104\97\114\46\84\111\114\115\111\91\39\76\101\102\116\32\72\105\112\39\93\58\68\101\115\116\114\111\121\40\41\32\99\104\97\114\46\84\111\114\115\111\91\39\82\105\103\104\116\32\72\105\112\39\93\58\68\101\115\116\114\111\121\40\41\32\32\99\114\101\97\116\101\40\99\104\97\114\91\39\84\111\114\115\111\39\93\44\114\101\97\110\105\109\91\39\84\111\114\115\111\39\93\41\32\99\114\101\97\116\101\40\99\104\97\114\91\39\76\101\102\116\32\65\114\109\39\93\44\114\101\97\110\105\109\91\39\76\101\102\116\32\65\114\109\39\93\41\32\99\114\101\97\116\101\40\99\104\97\114\91\39\82\105\103\104\116\32\65\114\109\39\93\44\114\101\97\110\105\109\91\39\82\105\103\104\116\32\65\114\109\39\93\41\32\99\114\101\97\116\101\40\99\104\97\114\91\39\76\101\102\116\32\76\101\103\39\93\44\114\101\97\110\105\109\91\39\76\101\102\116\32\76\101\103\39\93\41\32\99\114\101\97\116\101\40\99\104\97\114\91\39\82\105\103\104\116\32\76\101\103\39\93\44\114\101\97\110\105\109\91\39\82\105\103\104\116\32\76\101\103\39\93\41\32\32\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\114\101\97\110\105\109\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\32\105\102\32\118\58\73\115\65\40\39\66\97\115\101\80\97\114\116\39\41\32\111\114\32\118\58\73\115\65\40\39\68\101\99\97\108\39\41\32\116\104\101\110\32\118\46\84\114\97\110\115\112\97\114\101\110\99\121\32\61\32\49\32\101\110\100\32\101\110\100\32\32\114\101\97\110\105\109\46\80\97\114\101\110\116\32\61\32\102\108\32\32\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\114\101\97\110\105\109\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\32\105\102\32\118\58\73\115\65\40\39\66\97\115\101\80\97\114\116\39\41\32\116\104\101\110\32\116\97\98\108\101\46\105\110\115\101\114\116\40\99\116\44\115\114\118\46\82\101\110\100\101\114\83\116\101\112\112\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\32\118\46\67\97\110\67\111\108\108\105\100\101\32\61\32\102\97\108\115\101\32\101\110\100\41\41\32\101\110\100\32\101\110\100\32\32\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\99\104\97\114\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\32\105\102\32\118\58\73\115\65\40\39\66\97\115\101\80\97\114\116\39\41\32\116\104\101\110\32\116\97\98\108\101\46\105\110\115\101\114\116\40\99\116\44\115\114\118\46\82\101\110\100\101\114\83\116\101\112\112\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\32\118\46\67\97\110\67\111\108\108\105\100\101\32\61\32\102\97\108\115\101\32\101\110\100\41\41\32\101\110\100\32\101\110\100\32\32\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\114\101\97\110\105\109\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\32\105\102\32\118\58\73\115\65\40\39\66\97\115\101\80\97\114\116\39\41\32\116\104\101\110\32\116\97\98\108\101\46\105\110\115\101\114\116\40\99\116\44\115\114\118\46\83\116\101\112\112\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\32\118\46\67\97\110\67\111\108\108\105\100\101\32\61\32\102\97\108\115\101\32\101\110\100\41\41\32\101\110\100\32\101\110\100\32\32\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\99\104\97\114\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\32\105\102\32\118\58\73\115\65\40\39\66\97\115\101\80\97\114\116\39\41\32\116\104\101\110\32\116\97\98\108\101\46\105\110\115\101\114\116\40\99\116\44\115\114\118\46\83\116\101\112\112\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\32\118\46\67\97\110\67\111\108\108\105\100\101\32\61\32\102\97\108\115\101\32\101\110\100\41\41\32\101\110\100\32\101\110\100\32\32\116\97\98\108\101\46\105\110\115\101\114\116\40\99\116\44\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\68\105\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\32\112\108\114\46\67\104\97\114\97\99\116\101\114\32\61\32\99\104\97\114\32\99\104\97\114\58\66\114\101\97\107\74\111\105\110\116\115\40\41\32\114\101\97\110\105\109\58\68\101\115\116\114\111\121\40\41\32\103\97\109\101\46\80\108\97\121\101\114\115\58\67\104\97\116\40\39\45\103\114\39\41\32\95\71\46\110\101\116\108\101\115\115\58\68\105\115\99\111\110\110\101\99\116\40\41\32\72\117\109\97\110\68\105\101\100\32\61\32\116\114\117\101\32\102\111\114\32\95\44\118\32\105\110\32\112\97\105\114\115\40\99\116\41\32\100\111\32\118\58\68\105\115\99\111\110\110\101\99\116\40\41\32\101\110\100\32\101\110\100\41\41\32\32\112\108\114\46\67\104\97\114\97\99\116\101\114\32\61\32\114\101\97\110\105\109\32\119\111\114\107\115\112\97\99\101\46\67\117\114\114\101\110\116\67\97\109\101\114\97\46\67\97\109\101\114\97\83\117\98\106\101\99\116\32\61\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\10\10\73\84\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\10\67\70\32\61\32\67\70\114\97\109\101\46\110\101\119\10\86\84\32\61\32\86\101\99\116\111\114\51\46\110\101\119\10\82\65\68\32\61\32\109\97\116\104\46\114\97\100\10\67\51\32\61\32\67\111\108\111\114\51\46\110\101\119\10\85\68\50\32\61\32\85\68\105\109\50\46\110\101\119\10\66\82\73\67\75\67\32\61\32\66\114\105\99\107\67\111\108\111\114\46\110\101\119\10\65\78\71\76\69\83\32\61\32\67\70\114\97\109\101\46\65\110\103\108\101\115\10\69\85\76\69\82\32\61\32\67\70\114\97\109\101\46\102\114\111\109\69\117\108\101\114\65\110\103\108\101\115\88\89\90\10\67\79\83\32\61\32\109\97\116\104\46\99\111\115\10\65\67\79\83\32\61\32\109\97\116\104\46\97\99\111\115\10\83\73\78\32\61\32\109\97\116\104\46\115\105\110\10\65\83\73\78\32\61\32\109\97\116\104\46\97\115\105\110\10\65\66\83\32\61\32\109\97\116\104\46\97\98\115\10\77\82\65\78\68\79\77\32\61\32\109\97\116\104\46\114\97\110\100\111\109\10\70\76\79\79\82\32\61\32\109\97\116\104\46\102\108\111\111\114\10\10\115\112\101\101\100\32\61\32\49\10\115\105\110\101\32\61\32\49\10\115\114\118\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\39\82\117\110\83\101\114\118\105\99\101\39\41\10\10\114\101\97\110\105\109\32\61\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\10\10\102\117\110\99\116\105\111\110\32\104\97\116\40\104\44\112\44\99\49\44\99\48\44\109\41\10\114\101\97\110\105\109\91\104\93\46\72\97\110\100\108\101\46\65\99\99\101\115\115\111\114\121\87\101\108\100\46\80\97\114\116\49\61\114\101\97\110\105\109\91\112\93\10\114\101\97\110\105\109\91\104\93\46\72\97\110\100\108\101\46\65\99\99\101\115\115\111\114\121\87\101\108\100\46\67\49\61\99\49\32\111\114\32\67\70\114\97\109\101\46\110\101\119\40\41\10\114\101\97\110\105\109\91\104\93\46\72\97\110\100\108\101\46\65\99\99\101\115\115\111\114\121\87\101\108\100\46\67\48\61\114\101\97\110\105\109\91\104\93\46\72\97\110\100\108\101\46\65\99\99\101\115\115\111\114\121\87\101\108\100\46\67\48\58\76\101\114\112\40\99\48\32\111\114\32\67\70\114\97\109\101\46\110\101\119\40\41\44\49\41\10\105\102\32\109\32\61\61\32\116\114\117\101\32\116\104\101\110\10\114\109\101\115\104\40\104\41\10\101\110\100\10\101\110\100\10\10\109\61\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\58\71\101\116\77\111\117\115\101\40\41\10\82\74\32\61\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\46\82\111\111\116\74\111\105\110\116\10\82\83\32\61\32\114\101\97\110\105\109\46\84\111\114\115\111\91\39\82\105\103\104\116\32\83\104\111\117\108\100\101\114\39\93\10\76\83\32\61\32\114\101\97\110\105\109\46\84\111\114\115\111\91\39\76\101\102\116\32\83\104\111\117\108\100\101\114\39\93\10\82\72\32\61\32\114\101\97\110\105\109\46\84\111\114\115\111\91\39\82\105\103\104\116\32\72\105\112\39\93\10\76\72\32\61\32\114\101\97\110\105\109\46\84\111\114\115\111\91\39\76\101\102\116\32\72\105\112\39\93\10\82\111\111\116\32\61\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\10\78\69\67\75\32\61\32\114\101\97\110\105\109\46\84\111\114\115\111\46\78\101\99\107\10\78\69\67\75\46\67\48\32\61\32\67\70\40\48\44\49\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\78\69\67\75\46\67\49\32\61\32\67\70\40\48\44\45\48\46\53\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\82\74\46\67\49\32\61\32\67\70\40\48\44\45\49\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\82\74\46\67\48\32\61\32\67\70\40\48\44\48\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\82\83\46\67\49\32\61\32\67\70\40\48\44\48\46\53\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\76\83\46\67\49\32\61\32\67\70\40\48\44\48\46\53\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\82\72\46\67\49\32\61\32\67\70\40\48\44\49\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\76\72\46\67\49\32\61\32\67\70\40\48\44\49\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\82\72\46\67\48\32\61\32\67\70\40\48\44\48\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\76\72\46\67\48\32\61\32\67\70\40\48\44\48\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\82\83\46\67\48\32\61\32\67\70\40\48\44\48\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\76\83\46\67\48\32\61\32\67\70\40\48\44\48\44\48\41\42\65\78\71\76\69\83\40\82\65\68\40\48\41\44\82\65\68\40\48\41\44\82\65\68\40\48\41\41\10\10\45\45\32\102\111\114\32\109\111\100\101\115\32\117\32\99\97\110\32\103\111\32\105\110\32\116\104\105\115\32\108\105\110\107\32\58\32\104\116\116\112\115\58\47\47\78\101\120\111\46\110\111\116\120\101\110\101\111\110\49\53\46\114\101\112\108\46\99\111\47\110\101\120\111\47\109\111\100\101\115\46\108\117\97\10\10\99\111\114\111\117\116\105\110\101\46\119\114\97\112\40\102\117\110\99\116\105\111\110\40\41\10\119\104\105\108\101\32\116\114\117\101\32\100\111\32\45\45\32\97\110\105\109\32\99\104\97\110\103\101\114\10\105\102\32\72\117\109\97\110\68\105\101\100\32\116\104\101\110\32\98\114\101\97\107\32\101\110\100\10\115\105\110\101\32\61\32\115\105\110\101\32\43\32\115\112\101\101\100\10\108\111\99\97\108\32\114\108\101\103\114\97\121\32\61\32\82\97\121\46\110\101\119\40\114\101\97\110\105\109\91\34\82\105\103\104\116\32\76\101\103\34\93\46\80\111\115\105\116\105\111\110\32\43\32\86\101\99\116\111\114\51\46\110\101\119\40\48\44\32\48\46\53\44\32\48\41\44\32\86\101\99\116\111\114\51\46\110\101\119\40\48\44\32\45\50\44\32\48\41\41\10\108\111\99\97\108\32\114\108\101\103\112\97\114\116\44\32\114\108\101\103\101\110\100\80\111\105\110\116\32\61\32\119\111\114\107\115\112\97\99\101\58\70\105\110\100\80\97\114\116\79\110\82\97\121\40\114\108\101\103\114\97\121\44\32\99\104\97\114\41\10\108\111\99\97\108\32\108\108\101\103\114\97\121\32\61\32\82\97\121\46\110\101\119\40\114\101\97\110\105\109\91\34\76\101\102\116\32\76\101\103\34\93\46\80\111\115\105\116\105\111\110\32\43\32\86\101\99\116\111\114\51\46\110\101\119\40\48\44\32\48\46\53\44\32\48\41\44\32\86\101\99\116\111\114\51\46\110\101\119\40\48\44\32\45\50\44\32\48\41\41\10\108\111\99\97\108\32\108\108\101\103\112\97\114\116\44\32\108\108\101\103\101\110\100\80\111\105\110\116\32\61\32\119\111\114\107\115\112\97\99\101\58\70\105\110\100\80\97\114\116\79\110\82\97\121\40\108\108\101\103\114\97\121\44\32\99\104\97\114\41\10\108\111\99\97\108\32\114\105\103\104\116\118\101\99\116\111\114\32\61\32\40\82\111\111\116\46\86\101\108\111\99\105\116\121\32\42\32\82\111\111\116\46\67\70\114\97\109\101\46\114\105\103\104\116\86\101\99\116\111\114\41\46\88\32\43\32\40\82\111\111\116\46\86\101\108\111\99\105\116\121\32\42\32\82\111\111\116\46\67\70\114\97\109\101\46\114\105\103\104\116\86\101\99\116\111\114\41\46\90\10\108\111\99\97\108\32\108\111\111\107\118\101\99\116\111\114\32\61\32\40\82\111\111\116\46\86\101\108\111\99\105\116\121\32\42\32\82\111\111\116\46\67\70\114\97\109\101\46\108\111\111\107\86\101\99\116\111\114\41\46\88\32\43\32\40\82\111\111\116\46\86\101\108\111\99\105\116\121\32\42\32\82\111\111\116\46\67\70\114\97\109\101\46\108\111\111\107\86\101\99\116\111\114\41\46\90\10\105\102\32\108\111\111\107\118\101\99\116\111\114\32\62\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\32\116\104\101\110\10\108\111\111\107\118\101\99\116\111\114\32\61\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\10\101\110\100\10\105\102\32\108\111\111\107\118\101\99\116\111\114\32\60\32\45\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\32\116\104\101\110\10\108\111\111\107\118\101\99\116\111\114\32\61\32\45\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\10\101\110\100\10\105\102\32\114\105\103\104\116\118\101\99\116\111\114\32\62\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\32\116\104\101\110\10\114\105\103\104\116\118\101\99\116\111\114\32\61\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\10\101\110\100\10\105\102\32\114\105\103\104\116\118\101\99\116\111\114\32\60\32\45\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\32\116\104\101\110\10\114\105\103\104\116\118\101\99\116\111\114\32\61\32\45\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\10\101\110\100\10\108\111\99\97\108\32\108\111\111\107\118\101\108\32\61\32\108\111\111\107\118\101\99\116\111\114\32\47\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\10\108\111\99\97\108\32\114\105\103\104\116\118\101\108\32\61\32\114\105\103\104\116\118\101\99\116\111\114\32\47\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\10\105\102\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\74\117\109\112\32\116\104\101\110\32\45\45\32\106\117\109\112\10\78\69\67\75\46\67\48\61\78\69\67\75\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\49\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\74\46\67\48\61\82\74\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\50\46\53\52\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\83\46\67\48\61\82\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\83\46\67\48\61\76\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\55\54\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\72\46\67\48\61\82\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\50\46\56\51\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\72\46\67\48\61\76\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\52\46\52\52\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\10\101\108\115\101\105\102\32\82\111\111\116\46\86\101\108\111\99\105\116\121\46\121\32\60\32\45\49\32\97\110\100\32\114\101\97\110\105\109\46\72\117\109\97\110\111\105\100\46\74\117\109\112\32\116\104\101\110\32\45\45\32\102\97\108\108\10\78\69\67\75\46\67\48\61\78\69\67\75\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\49\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\74\46\67\48\61\82\74\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\50\46\53\52\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\83\46\67\48\61\82\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\83\46\67\48\61\76\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\55\54\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\72\46\67\48\61\82\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\50\46\56\51\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\72\46\67\48\61\76\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\52\46\52\52\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\10\101\108\115\101\105\102\32\82\111\111\116\46\86\101\108\111\99\105\116\121\46\77\97\103\110\105\116\117\100\101\32\60\32\50\32\116\104\101\110\32\45\45\32\105\100\108\101\10\78\69\67\75\46\67\48\61\78\69\67\75\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\49\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\74\46\67\48\61\82\74\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\50\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\83\46\67\48\61\82\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\46\57\51\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\49\50\48\46\50\49\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\83\46\67\48\61\76\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\49\46\52\55\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\55\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\72\46\67\48\61\82\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\50\46\57\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\52\50\46\52\56\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\53\46\53\56\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\72\46\67\48\61\76\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\48\46\54\56\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\52\46\54\57\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\49\57\46\53\53\43\49\51\46\50\51\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\53\57\46\48\56\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\10\101\108\115\101\105\102\32\82\111\111\116\46\86\101\108\111\99\105\116\121\46\77\97\103\110\105\116\117\100\101\32\60\32\50\48\32\116\104\101\110\32\45\45\32\119\97\108\107\10\78\69\67\75\46\67\48\61\78\69\67\75\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\49\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\74\46\67\48\61\82\74\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\50\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\83\46\67\48\61\82\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\46\57\51\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\49\50\48\46\50\49\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\83\46\67\48\61\76\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\49\46\52\55\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\55\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\72\46\67\48\61\82\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\50\46\57\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\55\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\50\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\72\46\67\48\61\76\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\52\46\54\57\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\55\48\43\45\50\46\48\54\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\50\56\46\53\49\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\10\101\108\115\101\105\102\32\82\111\111\116\46\86\101\108\111\99\105\116\121\46\77\97\103\110\105\116\117\100\101\32\62\32\50\48\32\116\104\101\110\32\45\45\32\114\117\110\10\78\69\67\75\46\67\48\61\78\69\67\75\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\49\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\74\46\67\48\61\82\74\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\50\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\83\46\67\48\61\82\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\48\46\57\51\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\49\50\48\46\50\49\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\83\46\67\48\61\76\83\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\49\46\52\55\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\55\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\82\72\46\67\48\61\82\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\50\46\57\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\55\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\50\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\32\10\76\72\46\67\48\61\76\72\46\67\48\58\76\101\114\112\40\67\70\114\97\109\101\46\110\101\119\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\45\49\46\53\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\44\52\46\54\57\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\42\67\70\114\97\109\101\46\65\110\103\108\101\115\40\109\97\116\104\46\114\97\100\40\50\55\48\43\45\50\46\48\54\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\48\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\44\109\97\116\104\46\114\97\100\40\48\43\50\56\46\53\49\42\109\97\116\104\46\99\111\115\40\115\105\110\101\47\49\48\41\41\41\44\46\50\41\10\101\110\100\10\115\114\118\46\82\101\110\100\101\114\83\116\101\112\112\101\100\58\87\97\105\116\40\41\10\101\110\100\10\101\110\100\41\40\41\10\45\45\67\114\101\97\116\101\100\32\117\115\105\110\103\32\78\101\120\111\32\65\110\105\109\97\116\111\114\32\86\52\10")()
+end)
+
+Pyramid.Name = "Pyramid"
+Pyramid.Parent = fe3
+Pyramid.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Pyramid.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Pyramid.Position = UDim2.new(0.109375, 0, 0.188403517, 0)
+Pyramid.Size = UDim2.new(0, 200, 0, 32)
+Pyramid.Font = Enum.Font.SourceSans
+Pyramid.Text = "Fe Pyramid"
+Pyramid.TextColor3 = Color3.fromRGB(255, 148, 25)
+Pyramid.TextSize = 20.000
+Pyramid.TextWrapped = true
+Pyramid.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/62D5UQSC"))()
+end)
+
+Dafeet.Name = "Dafeet"
+Dafeet.Parent = fe3
+Dafeet.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Dafeet.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Dafeet.Position = UDim2.new(0.109375, 0, 0.289439797, 0)
+Dafeet.Size = UDim2.new(0, 200, 0, 32)
+Dafeet.Font = Enum.Font.SourceSans
+Dafeet.Text = "Fe Da Feet"
+Dafeet.TextColor3 = Color3.fromRGB(255, 148, 25)
+Dafeet.TextSize = 18.000
+Dafeet.TextWrapped = true
+Dafeet.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet('https://gist.githubusercontent.com/1BlueCat/7291747e9f093555573e027621f08d6e/raw/23b48f2463942befe19d81aa8a06e3222996242c/FE%2520Da%2520Feets'))()
+end)
+
+Ender.Name = "Ender"
+Ender.Parent = fe3
+Ender.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Ender.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Ender.Position = UDim2.new(0.109375, 0, 0.39565739, 0)
+Ender.Size = UDim2.new(0, 200, 0, 32)
+Ender.Font = Enum.Font.SourceSans
+Ender.Text = "Fe Ender"
+Ender.TextColor3 = Color3.fromRGB(255, 148, 25)
+Ender.TextSize = 18.000
+Ender.TextWrapped = true
+Ender.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/BHUU2S6n"))()
+end)
+
+Xester.Name = "Xester"
+Xester.Parent = fe3
+Xester.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Xester.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Xester.Position = UDim2.new(0.109375, 0, 0.499284327, 0)
+Xester.Size = UDim2.new(0, 200, 0, 32)
+Xester.Font = Enum.Font.SourceSans
+Xester.Text = "Fe Xester"
+Xester.TextColor3 = Color3.fromRGB(255, 148, 25)
+Xester.TextSize = 18.000
+Xester.TextWrapped = true
+Xester.MouseButton1Click:connect(function()
+    loadstring(game:HttpGetAsync("https://pastebin.com/raw/RPwyPvEi"))()
+end)
+
+Cursed64.Name = "Cursed64"
+Cursed64.Parent = fe3
+Cursed64.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Cursed64.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cursed64.Position = UDim2.new(0.109375, 0, 0.600320578, 0)
+Cursed64.Size = UDim2.new(0, 200, 0, 32)
+Cursed64.Font = Enum.Font.SourceSans
+Cursed64.Text = "Fe Cursed 64"
+Cursed64.TextColor3 = Color3.fromRGB(255, 148, 25)
+Cursed64.TextSize = 18.000
+Cursed64.TextWrapped = true
+Cursed64.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet('https://gist.githubusercontent.com/1BlueCat/8b9b759a86e7f70707a28f7f0a637d92/raw/954003b1de40af5b3568a3d6d94487574b58d92b/FE%2520Cursed%252064'))()
+end)
+
+Strong.Name = "Strong"
+Strong.Parent = fe3
+Strong.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Strong.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Strong.Position = UDim2.new(0.109375, 0, 0.7065382, 0)
+Strong.Size = UDim2.new(0, 200, 0, 32)
+Strong.Font = Enum.Font.SourceSans
+Strong.Text = "Fe Strong Boi"
+Strong.TextColor3 = Color3.fromRGB(255, 148, 25)
+Strong.TextSize = 18.000
+Strong.TextWrapped = true
+Strong.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/hfpWm8pf"))()
+end)
+
+Retard.Name = "Retard"
+Retard.Parent = fe3
+Retard.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Retard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Retard.Position = UDim2.new(0.109375, 0, 0.814273, 0)
+Retard.Size = UDim2.new(0, 200, 0, 32)
+Retard.Font = Enum.Font.SourceSans
+Retard.Text = "Fe Retard Dance"
+Retard.TextColor3 = Color3.fromRGB(255, 148, 25)
+Retard.TextSize = 18.000
+Retard.TextWrapped = true
+Retard.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/5ddwJ7tP"))()
+end)
+
+fehats1.Name = "fehats1"
+fehats1.Parent = main
+fehats1.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+fehats1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fehats1.Position = UDim2.new(0.282722533, 0, 0.10078001, 0)
+fehats1.Size = UDim2.new(0, 256, 0, 362)
+fehats1.Visible = false
+
+Shy.Name = "Shy"
+Shy.Parent = fehats1
+Shy.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Shy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Shy.Position = UDim2.new(0.109375, 0, 0.0873672441, 0)
+Shy.Size = UDim2.new(0, 200, 0, 32)
+Shy.Font = Enum.Font.SourceSans
+Shy.Text = "Fe Scp 096"
+Shy.TextColor3 = Color3.fromRGB(255, 148, 25)
+Shy.TextSize = 20.000
+Shy.TextWrapped = true
+Shy.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/EM3gWpGZ"))()
+end)
+
+Pyramid_2.Name = "Pyramid"
+Pyramid_2.Parent = fehats1
+Pyramid_2.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Pyramid_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Pyramid_2.Position = UDim2.new(0.109375, 0, 0.188403517, 0)
+Pyramid_2.Size = UDim2.new(0, 200, 0, 32)
+Pyramid_2.Font = Enum.Font.SourceSans
+Pyramid_2.Text = "Fe Bike"
+Pyramid_2.TextColor3 = Color3.fromRGB(255, 148, 25)
+Pyramid_2.TextSize = 20.000
+Pyramid_2.TextWrapped = true
+Pyramid_2.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/pMYatdu0'),true))()
+end)
+
+Dafeet_2.Name = "Dafeet"
+Dafeet_2.Parent = fehats1
+Dafeet_2.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Dafeet_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Dafeet_2.Position = UDim2.new(0.109375, 0, 0.289439797, 0)
+Dafeet_2.Size = UDim2.new(0, 200, 0, 32)
+Dafeet_2.Font = Enum.Font.SourceSans
+Dafeet_2.Text = "Fe Universe Hat"
+Dafeet_2.TextColor3 = Color3.fromRGB(255, 148, 25)
+Dafeet_2.TextSize = 18.000
+Dafeet_2.TextWrapped = true
+Dafeet_2.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/GKLtx40H"))()
+end)
+
+Ender_2.Name = "Ender"
+Ender_2.Parent = fehats1
+Ender_2.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Ender_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Ender_2.Position = UDim2.new(0.109375, 0, 0.39565739, 0)
+Ender_2.Size = UDim2.new(0, 200, 0, 32)
+Ender_2.Font = Enum.Font.SourceSans
+Ender_2.Text = "Fe Saitama"
+Ender_2.TextColor3 = Color3.fromRGB(255, 148, 25)
+Ender_2.TextSize = 18.000
+Ender_2.TextWrapped = true
+Ender_2.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/aZiSA96W"))()
+end)
+
+Xester_2.Name = "Xester"
+Xester_2.Parent = fehats1
+Xester_2.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Xester_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Xester_2.Position = UDim2.new(0.109375, 0, 0.499284327, 0)
+Xester_2.Size = UDim2.new(0, 200, 0, 32)
+Xester_2.Font = Enum.Font.SourceSans
+Xester_2.Text = "Fe Fling Gun"
+Xester_2.TextColor3 = Color3.fromRGB(255, 148, 25)
+Xester_2.TextSize = 18.000
+Xester_2.TextWrapped = true
+Xester_2.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Yifphzz2"))()
+end)
+
+Cursed64_2.Name = "Cursed64"
+Cursed64_2.Parent = fehats1
+Cursed64_2.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Cursed64_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cursed64_2.Position = UDim2.new(0.109375, 0, 0.600320578, 0)
+Cursed64_2.Size = UDim2.new(0, 200, 0, 32)
+Cursed64_2.Font = Enum.Font.SourceSans
+Cursed64_2.Text = "Fe Pickaxe"
+Cursed64_2.TextColor3 = Color3.fromRGB(255, 148, 25)
+Cursed64_2.TextSize = 18.000
+Cursed64_2.TextWrapped = true
+
+Stand.Name = "Stand"
+Stand.Parent = fehats1
+Stand.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Stand.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Stand.Position = UDim2.new(0.109375, 0, 0.7065382, 0)
+Stand.Size = UDim2.new(0, 200, 0, 32)
+Stand.Font = Enum.Font.SourceSans
+Stand.Text = "Fe Stand"
+Stand.TextColor3 = Color3.fromRGB(255, 148, 25)
+Stand.TextSize = 18.000
+Stand.TextWrapped = true
+Stand.MouseButton1Click:connect(function()
+    loadstring(gamge:HttpGet("https://pastebin.com/raw/RZUwatYV"))()
+end)
+
+Smile.Name = "Smile"
+Smile.Parent = fehats1
+Smile.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Smile.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Smile.Position = UDim2.new(0.109375, 0, 0.814273, 0)
+Smile.Size = UDim2.new(0, 200, 0, 32)
+Smile.Font = Enum.Font.SourceSans
+Smile.Text = "Fe Achromatic"
+Smile.TextColor3 = Color3.fromRGB(255, 148, 25)
+Smile.TextSize = 18.000
+Smile.TextWrapped = true
+Smile.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ybB5Vshk"))()
+end)
+
+fehats2.Name = "fehats2"
+fehats2.Parent = main
+fehats2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+fehats2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fehats2.Position = UDim2.new(0.280104816, 0, 0.10078004, 0)
+fehats2.Size = UDim2.new(0, 256, 0, 362)
+fehats2.Visible = false
+
+Waiter.Name = "Waiter"
+Waiter.Parent = fehats2
+Waiter.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Waiter.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Waiter.Position = UDim2.new(0.109375, 0, 0.0873672441, 0)
+Waiter.Size = UDim2.new(0, 200, 0, 32)
+Waiter.Font = Enum.Font.SourceSans
+Waiter.Text = "Fe Waiter"
+Waiter.TextColor3 = Color3.fromRGB(255, 148, 25)
+Waiter.TextSize = 20.000
+Waiter.TextWrapped = true
+Waiter.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/XVup9FVH"))()
+end)
+
+Strongstand.Name = "Strongstand"
+Strongstand.Parent = fehats2
+Strongstand.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Strongstand.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Strongstand.Position = UDim2.new(0.109375, 0, 0.188403517, 0)
+Strongstand.Size = UDim2.new(0, 200, 0, 32)
+Strongstand.Font = Enum.Font.SourceSans
+Strongstand.Text = "Fe Strong Stand"
+Strongstand.TextColor3 = Color3.fromRGB(255, 148, 25)
+Strongstand.TextSize = 18.000
+Strongstand.TextWrapped = true
+Strongstand.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/N73xEnhh"))()
+end)
+
+Nullion.Name = "Nullion"
+Nullion.Parent = fehats2
+Nullion.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Nullion.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Nullion.Position = UDim2.new(0.109375, 0, 0.289439797, 0)
+Nullion.Size = UDim2.new(0, 200, 0, 32)
+Nullion.Font = Enum.Font.SourceSans
+Nullion.Text = "Fe Nullion"
+Nullion.TextColor3 = Color3.fromRGB(255, 148, 25)
+Nullion.TextSize = 18.000
+Nullion.TextWrapped = true
+Nullion.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/b3F53vfX"))()
+end)
+
+Cs3.Name = "Cs3"
+Cs3.Parent = fehats2
+Cs3.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Cs3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cs3.Position = UDim2.new(0.109375, 0, 0.39565739, 0)
+Cs3.Size = UDim2.new(0, 200, 0, 32)
+Cs3.Font = Enum.Font.SourceSans
+Cs3.Text = "Coming Soon!"
+Cs3.TextColor3 = Color3.fromRGB(255, 148, 25)
+Cs3.TextSize = 18.000
+Cs3.TextWrapped = true
+
+Cs4.Name = "Cs4"
+Cs4.Parent = fehats2
+Cs4.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Cs4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cs4.Position = UDim2.new(0.109375, 0, 0.499284327, 0)
+Cs4.Size = UDim2.new(0, 200, 0, 32)
+Cs4.Font = Enum.Font.SourceSans
+Cs4.Text = "Coming Soon!"
+Cs4.TextColor3 = Color3.fromRGB(255, 148, 25)
+Cs4.TextSize = 18.000
+Cs4.TextWrapped = true
+
+Cs5.Name = "Cs5"
+Cs5.Parent = fehats2
+Cs5.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Cs5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cs5.Position = UDim2.new(0.109375, 0, 0.600320578, 0)
+Cs5.Size = UDim2.new(0, 200, 0, 32)
+Cs5.Font = Enum.Font.SourceSans
+Cs5.Text = "Coming Soon!"
+Cs5.TextColor3 = Color3.fromRGB(255, 148, 25)
+Cs5.TextSize = 18.000
+Cs5.TextWrapped = true
+
+Cs6.Name = "Cs6"
+Cs6.Parent = fehats2
+Cs6.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Cs6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cs6.Position = UDim2.new(0.109375, 0, 0.7065382, 0)
+Cs6.Size = UDim2.new(0, 200, 0, 32)
+Cs6.Font = Enum.Font.SourceSans
+Cs6.Text = "Coming Soon!"
+Cs6.TextColor3 = Color3.fromRGB(255, 148, 25)
+Cs6.TextSize = 18.000
+Cs6.TextWrapped = true
+
+Cs7.Name = "Cs7"
+Cs7.Parent = fehats2
+Cs7.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Cs7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cs7.Position = UDim2.new(0.109375, 0, 0.814273, 0)
+Cs7.Size = UDim2.new(0, 200, 0, 32)
+Cs7.Font = Enum.Font.SourceSans
+Cs7.Text = "Coming Soon!"
+Cs7.TextColor3 = Color3.fromRGB(255, 148, 25)
+Cs7.TextSize = 18.000
+Cs7.TextWrapped = true
+
+fepaid1.Name = "fepaid1"
+fepaid1.Parent = main
+fepaid1.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+fepaid1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fepaid1.Position = UDim2.new(0.282722563, 0, 0.100779995, 0)
+fepaid1.Size = UDim2.new(0, 256, 0, 362)
+
+Wingedgunner.Name = "Wingedgunner"
+Wingedgunner.Parent = fepaid1
+Wingedgunner.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Wingedgunner.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Wingedgunner.Position = UDim2.new(0.109375, 0, 0.0873672441, 0)
+Wingedgunner.Size = UDim2.new(0, 200, 0, 32)
+Wingedgunner.Font = Enum.Font.SourceSans
+Wingedgunner.Text = "Fe Winged Gunner"
+Wingedgunner.TextColor3 = Color3.fromRGB(255, 148, 25)
+Wingedgunner.TextSize = 20.000
+Wingedgunner.TextWrapped = true
+Wingedgunner.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/JrCbBKHe"))()
+end)
+
+Neptunianv.Name = "Neptunianv"
+Neptunianv.Parent = fepaid1
+Neptunianv.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Neptunianv.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Neptunianv.Position = UDim2.new(0.109375, 0, 0.188403517, 0)
+Neptunianv.Size = UDim2.new(0, 200, 0, 32)
+Neptunianv.Font = Enum.Font.SourceSans
+Neptunianv.Text = "Fe Neptunian V"
+Neptunianv.TextColor3 = Color3.fromRGB(255, 148, 25)
+Neptunianv.TextSize = 20.000
+Neptunianv.TextWrapped = true
+Neptunianv.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/hFaAV2Fv"))()
+end)
+
+Dbshot.Name = "Dbshot"
+Dbshot.Parent = fepaid1
+Dbshot.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Dbshot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Dbshot.Position = UDim2.new(0.109375, 0, 0.289439797, 0)
+Dbshot.Size = UDim2.new(0, 200, 0, 32)
+Dbshot.Font = Enum.Font.SourceSans
+Dbshot.Text = "Fe Db Shotgun"
+Dbshot.TextColor3 = Color3.fromRGB(255, 148, 25)
+Dbshot.TextSize = 18.000
+Dbshot.TextWrapped = true
+Dbshot.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/SSRTxKM1"))()
+end)
+
+Swordglitch.Name = "Swordglitch"
+Swordglitch.Parent = fepaid1
+Swordglitch.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Swordglitch.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Swordglitch.Position = UDim2.new(0.109375, 0, 0.39565739, 0)
+Swordglitch.Size = UDim2.new(0, 200, 0, 32)
+Swordglitch.Font = Enum.Font.SourceSans
+Swordglitch.Text = "Fe Sword Glitcher"
+Swordglitch.TextColor3 = Color3.fromRGB(255, 148, 25)
+Swordglitch.TextSize = 18.000
+Swordglitch.TextWrapped = true
+Swordglitch.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SwordSimIsGood/Sword-SG/main/Swords%20FE%20Starmd'))()
+end)
+
+Immortallord.Name = "Immortallord"
+Immortallord.Parent = fepaid1
+Immortallord.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Immortallord.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Immortallord.Position = UDim2.new(0.109375, 0, 0.499284327, 0)
+Immortallord.Size = UDim2.new(0, 200, 0, 32)
+Immortallord.Font = Enum.Font.SourceSans
+Immortallord.Text = "Fe Immortality Lord"
+Immortallord.TextColor3 = Color3.fromRGB(255, 148, 25)
+Immortallord.TextSize = 18.000
+Immortallord.TextWrapped = true
+Immortallord.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/gWBQpkvK"))()
+end)
+
+Killer.Name = "Killer"
+Killer.Parent = fepaid1
+Killer.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Killer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Killer.Position = UDim2.new(0.109375, 0, 0.600320578, 0)
+Killer.Size = UDim2.new(0, 200, 0, 32)
+Killer.Font = Enum.Font.SourceSans
+Killer.Text = "Fe Killer"
+Killer.TextColor3 = Color3.fromRGB(255, 148, 25)
+Killer.TextSize = 18.000
+Killer.TextWrapped = true
+Killer.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/4r7Rybmr"))()
+end)
+
+Shadowblade.Name = "Shadowblade"
+Shadowblade.Parent = fepaid1
+Shadowblade.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Shadowblade.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Shadowblade.Position = UDim2.new(0.109375, 0, 0.7065382, 0)
+Shadowblade.Size = UDim2.new(0, 200, 0, 32)
+Shadowblade.Font = Enum.Font.SourceSans
+Shadowblade.Text = "Fe Shadow Blade"
+Shadowblade.TextColor3 = Color3.fromRGB(255, 148, 25)
+Shadowblade.TextSize = 18.000
+Shadowblade.TextWrapped = true
+Shadowblade.MouseButton1Click:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/X1ddu2BK"))()
+end)
+
+Cs1.Name = "Cs1"
+Cs1.Parent = fepaid1
+Cs1.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Cs1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cs1.Position = UDim2.new(0.109375, 0, 0.814273, 0)
+Cs1.Size = UDim2.new(0, 200, 0, 32)
+Cs1.Font = Enum.Font.SourceSans
+Cs1.Text = "Coming Soon!"
+Cs1.TextColor3 = Color3.fromRGB(255, 148, 25)
+Cs1.TextSize = 18.000
+Cs1.TextWrapped = true
+
+needed.Name = "needed"
+needed.Parent = main
+needed.Active = true
+needed.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+needed.BorderColor3 = Color3.fromRGB(0, 0, 0)
+needed.Position = UDim2.new(0.282722473, 0, 0.101941742, 0)
+needed.Size = UDim2.new(0, 256, 0, 362)
+needed.Visible = false
+
+_096hat.Name = "096hat"
+_096hat.Parent = needed
+_096hat.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+_096hat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_096hat.Position = UDim2.new(0.10546875, 0, 0.0363963693, 0)
+_096hat.Size = UDim2.new(0, 200, 0, 32)
+_096hat.Font = Enum.Font.SourceSans
+_096hat.Text = "Copy Scp 096 Hats"
+_096hat.TextColor3 = Color3.fromRGB(255, 148, 25)
+_096hat.TextSize = 20.000
+_096hat.TextWrapped = true
+_096hat.MouseButton1Click:connect(function()
+    setclipboard(tostring([[
+https://www.roblox.com/catalog/3443038622/International-Fedora-Peru
+https://www.roblox.com/catalog/3409612660/International-Fedora-USA
+https://www.roblox.com/catalog/4047554959/International-Fedora-Brazil
+https://www.roblox.com/catalog/3940375351/International-Fedora-Philippines
+https://www.roblox.com/catalog/62234425/Brown-Hair
+]]))
+end)
+
+Bikehat.Name = "Bikehat"
+Bikehat.Parent = needed
+Bikehat.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Bikehat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bikehat.Position = UDim2.new(0.10546875, 0, 0.0812992826, 0)
+Bikehat.Size = UDim2.new(0, 200, 0, 32)
+Bikehat.Font = Enum.Font.SourceSans
+Bikehat.Text = "Copy Bike Hats"
+Bikehat.TextColor3 = Color3.fromRGB(255, 148, 25)
+Bikehat.TextSize = 20.000
+Bikehat.TextWrapped = true
+Bikehat.MouseButton1Click:connect(function()
+    setclipboard(tostring("https://www.roblox.com/catalog/9743558381/TJ-Wearable-BMX-Backpack"))
+end)
+
+Flinggunhat.Name = "Flinggunhat"
+Flinggunhat.Parent = needed
+Flinggunhat.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Flinggunhat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Flinggunhat.Position = UDim2.new(0.10546875, 0, 0.171105102, 0)
+Flinggunhat.Size = UDim2.new(0, 200, 0, 32)
+Flinggunhat.Font = Enum.Font.SourceSans
+Flinggunhat.Text = "Copy Fling Gun Hats"
+Flinggunhat.TextColor3 = Color3.fromRGB(255, 148, 25)
+Flinggunhat.TextSize = 20.000
+Flinggunhat.TextWrapped = true
+Flinggunhat.MouseButton1Click:connect(function()
+    setclipboard(tostring("https://web.roblox.com/catalog/6470135113/Fan-Hand-Sign-Why-Dont-We-WDW"))
+end)
+
+Standhat.Name = "Standhat"
+Standhat.Parent = needed
+Standhat.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Standhat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Standhat.Position = UDim2.new(0.09765625, 0, 0.262124509, 0)
+Standhat.Size = UDim2.new(0, 200, 0, 32)
+Standhat.Font = Enum.Font.SourceSans
+Standhat.Text = "Copy Stand Hats"
+Standhat.TextColor3 = Color3.fromRGB(255, 148, 25)
+Standhat.TextSize = 20.000
+Standhat.TextWrapped = true
+Standhat.MouseButton1Click:connect(function()
+    setclipboard(tostring([[
+https://www.roblox.com/catalog/451220849/Lavender-Updo
+https://www.roblox.com/catalog/63690008/Pal-Hair
+https://www.roblox.com/catalog/48474294/ROBLOX-Girl-Hair (this one is in a bundle) - https://www.roblox.com/bundles/282/ROBLOX-Girl 	
+https://www.roblox.com/catalog/48474313/Red-Roblox-Cap
+https://www.roblox.com/catalog/62234425/Brown-Hair
+https://www.roblox.com/catalog/62724852/Chestnut-Bun (this one is in a bundle) - https://www.roblox.com/bundles/239/Woman
+https://www.roblox.com/catalog/4819740796/Robox
+]]))
+end)
+
+Smilehat.Name = "Smilehat"
+Smilehat.Parent = needed
+Smilehat.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Smilehat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Smilehat.Position = UDim2.new(0.09765625, 0, 0.30945462, 0)
+Smilehat.Size = UDim2.new(0, 200, 0, 32)
+Smilehat.Font = Enum.Font.SourceSans
+Smilehat.Text = "Copy Smile Hats"
+Smilehat.TextColor3 = Color3.fromRGB(255, 148, 25)
+Smilehat.TextSize = 20.000
+Smilehat.TextWrapped = true
+
+Waiterhat.Name = "Waiterhat"
+Waiterhat.Parent = needed
+Waiterhat.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Waiterhat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Waiterhat.Position = UDim2.new(0.09765625, 0, 0.356784701, 0)
+Waiterhat.Size = UDim2.new(0, 200, 0, 32)
+Waiterhat.Font = Enum.Font.SourceSans
+Waiterhat.Text = "Copy Waiter Hats"
+Waiterhat.TextColor3 = Color3.fromRGB(255, 148, 25)
+Waiterhat.TextSize = 20.000
+Waiterhat.TextWrapped = true
+
+Pickaxehat.Name = "Pickaxehat"
+Pickaxehat.Parent = needed
+Pickaxehat.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Pickaxehat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Pickaxehat.Position = UDim2.new(0.10546875, 0, 0.218435198, 0)
+Pickaxehat.Size = UDim2.new(0, 200, 0, 32)
+Pickaxehat.Font = Enum.Font.SourceSans
+Pickaxehat.Text = "Copy Pickaxe Hats"
+Pickaxehat.TextColor3 = Color3.fromRGB(255, 148, 25)
+Pickaxehat.TextSize = 20.000
+Pickaxehat.TextWrapped = true
+
+Saitamahat.Name = "Saitamahat"
+Saitamahat.Parent = needed
+Saitamahat.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Saitamahat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Saitamahat.Position = UDim2.new(0.10546875, 0, 0.126202181, 0)
+Saitamahat.Size = UDim2.new(0, 200, 0, 32)
+Saitamahat.Font = Enum.Font.SourceSans
+Saitamahat.Text = "Copy Saitama Hats"
+Saitamahat.TextColor3 = Color3.fromRGB(255, 148, 25)
+Saitamahat.TextSize = 20.000
+Saitamahat.TextWrapped = true
+
+Stronghats.Name = "Stronghats"
+Stronghats.Parent = needed
+Stronghats.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Stronghats.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Stronghats.Position = UDim2.new(0.09765625, 0, 0.405328393, 0)
+Stronghats.Size = UDim2.new(0, 200, 0, 32)
+Stronghats.Font = Enum.Font.SourceSans
+Stronghats.Text = "Copy Strong Stand Hats"
+Stronghats.TextColor3 = Color3.fromRGB(255, 148, 25)
+Stronghats.TextSize = 20.000
+Stronghats.TextWrapped = true
+Stronghats.MouseButton1Click:connect(function()
+    setclipboard(tostring([[
+https://www.roblox.com/catalog/376524487/Blonde-Spiked-Hair
+https://www.roblox.com/catalog/6470135113/Fan-Hand-Sign-Why-Dont-We-WDW
+https://www.roblox.com/catalog/62724852/Chestnut-Bun
+https://www.roblox.com/catalog/48474294/ROBLOX-Girl-Hair
+https://www.roblox.com/catalog/376527500/Orange-Shades
+https://www.roblox.com/catalog/9661543986/Nike-Shoebox-Costume
+https://www.roblox.com/catalog/2309346267/Classic-PC-Hat
+]]))
+end)
+
+Nullionhat.Name = "Nullionhat"
+Nullionhat.Parent = needed
+Nullionhat.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Nullionhat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Nullionhat.Position = UDim2.new(0.09765625, 0, 0.452658474, 0)
+Nullionhat.Size = UDim2.new(0, 200, 0, 32)
+Nullionhat.Font = Enum.Font.SourceSans
+Nullionhat.Text = "Copy Nullion Hats"
+Nullionhat.TextColor3 = Color3.fromRGB(255, 148, 25)
+Nullionhat.TextSize = 20.000
+Nullionhat.TextWrapped = true
+Nullionhat.MouseButton1Click:connect(function()
+    setclipboard(tostring([[
+https://www.roblox.com/catalog/48474313/Red-Roblox-Cap
+https://www.roblox.com/catalog/4391384843/International-Fedora-Russia
+https://www.roblox.com/catalog/48474294/ROBLOX-Girl-Hair
+https://www.roblox.com/catalog/62724852/Chestnut-Bun
+https://www.roblox.com/catalog/451220849/Lavender-Updo
+https://www.roblox.com/catalog/63690008/Pal-Hair
+https://www.roblox.com/catalog/62234425/Brown-Hair
+]]))
+end)
+
+Dbshothat.Name = "Dbshothat"
+Dbshothat.Parent = needed
+Dbshothat.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Dbshothat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Dbshothat.Position = UDim2.new(0.09765625, 0, 0.498775005, 0)
+Dbshothat.Size = UDim2.new(0, 200, 0, 32)
+Dbshothat.Font = Enum.Font.SourceSans
+Dbshothat.Text = "Copy Db Shotgun Hats"
+Dbshothat.TextColor3 = Color3.fromRGB(255, 148, 25)
+Dbshothat.TextSize = 20.000
+Dbshothat.TextWrapped = true
+Dbshothat.MouseButton1Click:connect(function()
+    setclipboard(tostring("www.roblox.com/catalog/6774065728/DB12-Left-Hip"))
+end)
+
+Swordglitchhat.Name = "Swordglitchhat"
+Swordglitchhat.Parent = needed
+Swordglitchhat.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Swordglitchhat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Swordglitchhat.Position = UDim2.new(0.09765625, 0, 0.544891477, 0)
+Swordglitchhat.Size = UDim2.new(0, 200, 0, 32)
+Swordglitchhat.Font = Enum.Font.SourceSans
+Swordglitchhat.Text = "Copy Sword Glitcher Hats"
+Swordglitchhat.TextColor3 = Color3.fromRGB(255, 148, 25)
+Swordglitchhat.TextSize = 20.000
+Swordglitchhat.TextWrapped = true
+Swordglitchhat.MouseButton1Click:connect(function()
+    setclipboard(tostring([[
+https://www.roblox.com/catalog/4458601937/Frozen-Demonic-Greatsword
+https://www.roblox.com/catalog/4506945409/Corrupt-Demonic-Greatsword
+https://www.roblox.com/catalog/4794315940/Golden-Demonic-Greatsword
+https://www.roblox.com/catalog/4820152700/Shadow-Blademasters-Blade
+]]))
+end)
+
+Immortalhat.Name = "Immortalhat"
+Immortalhat.Parent = needed
+Immortalhat.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Immortalhat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Immortalhat.Position = UDim2.new(0.09765625, 0, 0.589794397, 0)
+Immortalhat.Size = UDim2.new(0, 200, 0, 32)
+Immortalhat.Font = Enum.Font.SourceSans
+Immortalhat.Text = "Copy immortality Lord Hats"
+Immortalhat.TextColor3 = Color3.fromRGB(255, 148, 25)
+Immortalhat.TextSize = 20.000
+Immortalhat.TextWrapped = true
+Immortalhat.MouseButton1Click:connect(function()
+    setclipboard(tostring([[
+https://www.roblox.com/catalog/5505301521/The-Left-Solo-Wing
+https://www.roblox.com/catalog/5593848751/The-Right-Solo-Wing
+https://www.roblox.com/catalog/6115113981/Sub-Zero-Ice-Sword
+]]))
+end)
+
+Killerhat.Name = "Killerhat"
+Killerhat.Parent = needed
+Killerhat.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Killerhat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Killerhat.Position = UDim2.new(0.09765625, 0, 0.637124419, 0)
+Killerhat.Size = UDim2.new(0, 200, 0, 32)
+Killerhat.Font = Enum.Font.SourceSans
+Killerhat.Text = "Copy Killer Hats"
+Killerhat.TextColor3 = Color3.fromRGB(255, 148, 25)
+Killerhat.TextSize = 20.000
+Killerhat.TextWrapped = true
+Killerhat.MouseButton1Click:connect(function()
+    setclipboard(tostring([[
+https://www.roblox.com/catalog/7069717878/Cartoony-Rainbow-Rifle
+https://www.roblox.com/catalog/7170680556/White-Swag-Knife
+]]))
+end)
+
+Shadowbladehat.Name = "Shadowbladehat"
+Shadowbladehat.Parent = needed
+Shadowbladehat.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Shadowbladehat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Shadowbladehat.Position = UDim2.new(0.09375, 0, 0.689308882, 0)
+Shadowbladehat.Size = UDim2.new(0, 200, 0, 32)
+Shadowbladehat.Font = Enum.Font.SourceSans
+Shadowbladehat.Text = "Copy Shadow Blade Hats"
+Shadowbladehat.TextColor3 = Color3.fromRGB(255, 148, 25)
+Shadowbladehat.TextSize = 20.000
+Shadowbladehat.TextWrapped = true
+Shadowbladehat.MouseButton1Click:connect(function()
+    setclipboard(tostring("https://web.roblox.com/catalog/4820152700/Shadow-Blademasters-Blade"))
+end)
